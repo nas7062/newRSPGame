@@ -1,14 +1,4 @@
-.container h1,p{
-   text-align: center;
-}
-.container p {
-    font-weight: 800;
-    font-size: 1.2rem;
-}
-.container {
-    background-color: rgba(128, 128, 128, 0.193);
-    height: 100vh;
-}
+
 
 .box {
     display: flex;
@@ -21,7 +11,7 @@
     margin-top: 50px;
 }
 
-.btnList > button:nth-of-type(1) {
+.btnList > button:nth-of-type(4) {
     width: 150px;
     border: 1px solid gray;
     border-radius: 1rem;
@@ -35,7 +25,7 @@
 }
 
 
-.btnList > button:nth-of-type(2) {
+.btnList > button:nth-of-type(5) {
     width: 150px;
     border: 1px solid gray;
     border-radius: 1rem;

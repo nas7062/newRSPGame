@@ -1,0 +1,39 @@
+:root {
+  --blue-100: #247dc1;
+  --blue-200: #678dc3;
+  --blue-300: #3684f2;
+  --orange: #ca661f;
+  --green: #7ac89e;
+  --yellow: #d7b15f;
+  --neutral-100: #f3f5f7;
+  --neutral-50: #e1e2e5;
+  --gap1 : 8px;
+  --gap2 : 16px;
+  --gap3 : 32px;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+body {
+  margin :10rem
+}
+
+footer p {
+  text-align:  center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+}

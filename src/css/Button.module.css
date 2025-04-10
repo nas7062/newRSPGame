@@ -1,21 +1,36 @@
 .btn {
-    width: 150px;
-    border: 1px solid gray;
-    border-radius: 1rem;
-    display: flex;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.3 ease;
+  width: 150px;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3 ease;
 }
 .btn:hover {
-    background-color: white;
+  background-color: white;
 }
 .btn > * {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .btn img {
-    width:50px;
-    position: relative;
+  width: 50px;
+  position: relative;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.paper {
+  border-left: 10px solid var(--orange);
+}
+.rock {
+    border-left: 10px solid var(--green);
+}
+
+.scissors {
+    border-left: 10px solid var(--yellow);
 }
